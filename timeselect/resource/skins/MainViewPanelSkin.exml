@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MainViewPanelSkin" width="1280" height="720" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0xf4e2c3"/>
+		<e:Group id="groupSelectData" y="118" horizontalCenter="-1">
+			<e:Image source="icon_nyq_cxsj_png" x="6.5" y="246.5" scaleX="1" scaleY="1"/>
+			<e:Image source="icon_nyq_cxsj_png" x="397" y="242" scaleX="1" scaleY="1"/>
+			<e:Image source="line_nyq_fangjian2_png" x="0" y="297" width="330" scaleX="1" scaleY="1"/>
+			<e:Image source="line_nyq_fangjian2_png" x="0" y="220" width="330" scaleX="1" scaleY="1"/>
+			<e:Image source="line_nyq_fangjian2_png" x="388" y="297" width="330" scaleX="1" scaleY="1"/>
+			<e:Image source="line_nyq_fangjian2_png" x="388" y="220" width="330" scaleX="1" scaleY="1"/>
+			<e:Scroller id="scoolStartDay" width="130" height="271" x="45" y="105" anchorOffsetY="0" anchorOffsetX="0">
+				<e:Group id="groupStartDay" anchorOffsetY="0" x="0" y="78" scrollV="25">
+				<e:List id="listStartDay" x="0" y="0">
+					<e:layout>
+					<e:VerticalLayout gap="40"/>
+					</e:layout>
+				</e:List>
+				</e:Group>
+			</e:Scroller>
+			<e:Scroller id="scoolStartTime" width="130" height="271" x="191" y="105" anchorOffsetY="0" anchorOffsetX="0">
+				<e:Group id="groupStartTime" anchorOffsetY="0" x="0" y="78" scrollV="25">
+				<e:List id="listStartTime" x="0" y="0">
+					<e:layout>
+					<e:VerticalLayout gap="40"/>
+					</e:layout>
+				</e:List>
+				</e:Group>
+			</e:Scroller>
+			<e:Scroller id="scoolEndDay" width="130" height="271" x="436" y="105" anchorOffsetY="0" anchorOffsetX="0">
+				<e:Group id="groupEndDay" anchorOffsetY="0" x="0" y="78" scrollV="25">
+				<e:List id="listEndDay" x="0" y="0">
+					<e:layout>
+					<e:VerticalLayout gap="40"/>
+					</e:layout>
+				</e:List>
+				</e:Group>
+			</e:Scroller>
+			<e:Scroller id="scoolEndTime" width="130" height="271" x="580" y="105" anchorOffsetY="0" anchorOffsetX="0">
+				<e:Group id="groupEndTime" anchorOffsetY="0" x="0" y="78" scrollV="25">
+				<e:List id="listEndTime" x="0" y="0">
+					<e:layout>
+					<e:VerticalLayout gap="40"/>
+					</e:layout>
+				</e:List>
+				</e:Group>
+			</e:Scroller>
+			<e:Label text="开始时间" x="94" y="35" size="40" fontFamily="黑体" textColor="0xb97b52" scaleX="1" scaleY="1"/>
+			<e:Label text="结束时间" x="486" y="35" size="40" textColor="0xB97B52" fontFamily="黑体" scaleX="1" scaleY="1"/>
+			<e:Image source="icon_nyq_cxsj2_png" x="342" y="237" scaleX="1" scaleY="1"/>
+		</e:Group>
+</e:Skin>

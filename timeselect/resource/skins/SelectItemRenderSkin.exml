@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SelectItemRenderSkin" width="128" height="32" xmlns:e="http://ns.egret.com/eui">
+<e:Label id="labText" text="{data.text}" size="32" fontFamily="黑体" textColor="0x931717" scaleX="1" scaleY="1" bottom="0" width="176" textAlign="center" x="-24"/>
+</e:Skin>

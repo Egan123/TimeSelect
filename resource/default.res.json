@@ -1,0 +1,25 @@
+{
+	"groups": [
+		{
+			"keys": "icon_nyq_cxsj_png,icon_nyq_cxsj2_png,line_nyq_fangjian2_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/icon_nyq_cxsj2.png",
+			"type": "image",
+			"name": "icon_nyq_cxsj2_png"
+		},
+		{
+			"url": "assets/line_nyq_fangjian2.png",
+			"type": "image",
+			"name": "line_nyq_fangjian2_png"
+		},
+		{
+			"url": "assets/icon_nyq_cxsj.png",
+			"type": "image",
+			"name": "icon_nyq_cxsj_png"
+		}
+	]
+}
